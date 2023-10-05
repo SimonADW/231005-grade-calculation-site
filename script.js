@@ -45,7 +45,10 @@ const setFinalGrade = (gradeNumber)=> {
 			}
 		else if (gradeNumber >= 90 && gradeNumber < 100) {
 			return gradeLetter[0];
-			};	
+			}
+		else if (gradeNumber > 100) {
+			return "Cheater ;-)"
+		};	
 }
 
 
