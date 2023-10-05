@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>JS Excersizes</title>	
+	<link rel="stylesheet" href="style.css">
+	<script src="script.js" defer></script>
+
+</head>
+<body>
+	<main>
+		<h1>Calculate Final Grade</h1>
+			<!-- Removed form bc it reloads page on submit  -->
+			<div class="form">
+				<label for="numberInput"> Enter semester grades, one at a time</label>
+				<input type="number" name="JStestForm" id="numberInput" min="50" max="100" placeholder="Enter two digit grade">
+				<button type="submit" id="submit">Submit grade</button>
+				<div>Your grades:</div>
+				<div id="gradesArrayContent">_ _</div>
+				<button type="submit" id="done">Calculate</button>
+				<div class="label">Final grade: </div>
+				<div id="content">A, B, C, D or E?</div>
+			</div>
+	</main>
+</body>
+</html>
